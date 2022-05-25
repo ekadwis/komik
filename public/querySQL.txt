@@ -1,0 +1,5 @@
+// Membuat View untuk Manga Filter
+CREATE VIEW manga_filter AS SELECT * FROM tipe_komik INNER JOIN list_komik ON tipe_komik.id_tipe = list_komik.tipe_komik WHERE tipe_komik.id_tipe = 'TK01';
+
+//Mengambil / Memfilter
+SELECT * FROM `manga_filter` WHERE id_tipe = 'TK01';

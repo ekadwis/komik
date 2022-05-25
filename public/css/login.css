@@ -1,0 +1,132 @@
+/* Edited Bootstrap */
+
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+:root {
+  --bs-purple: #6e33f5;
+  --bs-purple-rgb: 110, 51, 245;
+  --bs-hasil: 56, 56, 56;
+}
+
+.link-purple {
+  color: #6e33f5;
+  text-decoration: none;
+}
+
+.btn-purple {
+  color: #fff;
+  background-color: #6e33f5;
+  border-color: #6e33f5;
+}
+
+.bg-purple {
+  --bs-bg-opacity: 1;
+  background-color: rgba(var(--bs-purple-rgb), var(--bs-bg-opacity)) !important;
+}
+
+.bg-hasil {
+  --bs-bg-opacity: 1;
+  background-color: rgba(var(--bs-hasil), var(--bs-bg-opacity)) !important;
+}
+
+.mt-4-5 {
+  margin-top: 2rem;
+}
+
+.border-purple {
+  border-color: #6e33f5 !important;
+}
+
+.accordion-button {
+  color: #fff !important;
+  background-color: #212529 !important;
+  justify-content: flex-start !important;
+  padding: 1rem 0 !important;
+}
+
+.accordion-item {
+  background-color: #212529 !important;
+  border: none !important;
+}
+
+.accordion-button.collapsed {
+  color: #e7f1f4 !important;
+  background-color: #212529 !important;
+}
+.accordion-button.collapsed::after {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23fff'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+}
+
+.accordion-button:not(.collapsed) {
+  color: #e7f1f4 !important;
+  background-color: #212529 !important;
+}
+
+#accordion {
+  text-align: left;
+}
+
+hr {
+  color: #fff;
+  height: 2px !important;
+}
+
+.text-abu {
+  color: #999;
+}
+
+.progress {
+  height: 0.7rem;
+}
+
+/* .card-img-overlay {
+  flex-wrap: wrap-reverse;
+} */
+
+/* End Edited Bootstrap */
+
+
+/* Login */
+
+.login .right-side h1 {
+  font-size: 32pt;
+}
+
+.login .right-side h5 {
+  font-size: 11pt;
+}
+
+.right-side {
+  margin: auto 0;
+}
+
+/* .login-form {
+  width: 700px;
+} */
+
+.form-control {
+  height: 50px;
+  color: #999999 !important;
+  background-color: #383838 !important;
+  border: 1px solid #383838 !important;
+}
+
+.login .btn-purple {
+  height: 50px;
+  width: 100%;
+  text-align: center;
+  line-height: 50%;
+  padding: 0.375rem 0.75rem;
+}
+/* End Login */
+
